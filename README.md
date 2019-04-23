@@ -15,3 +15,8 @@ Contains basic configuration to get you a site with:
 - Site wide search.
 
 Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+
+Example base website with some default informational posts about the theme https://mmistakes.github.io/mm-github-pages-starter
+
+Theme website https://mmistakes.github.io/minimal-mistakes/
+
