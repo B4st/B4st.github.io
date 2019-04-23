@@ -3,6 +3,15 @@ layout: post
 title: Side Channel Attacks
 ---
 
+---
+title: "Side-Channel Attacks"
+date: 2019-04-20T15:34:30-04:00
+categories:
+  - Methodology
+tags:
+  - Hardware
+---
+
 A side-channel attack is any attack that is based on gaining information from the physical system that a process is being implemented on. Rather than an exploitation of weaknesses in the algorithm itself or peculiarities in the code, like cryptanalysis and software bugs. These attacks can use timing information, power consumption, electromagnetic leaks, or even sounds from the device as sources of information, which can then be exploited.
 
 Some side-channel attacks require technical knowledge of the internal operation of the system. Others, such as differential power analysis, are effective as black-box attacks, meaning that the internal processes do not need to be well known or understood by the attacker. The rise of Web 2.0 applications and software-as-a-service has also raised the possibility of side-channel attacks on the web, even when transmissions between a web browser and server are encrypted (e.g. through HTTPS or WiFi encryption).
@@ -123,7 +132,7 @@ Depending on the type of side channel attack that the device needs to be protect
 
 ### Countermeasures Method 2
 Depending on the type of side channel attack that the device needs to be protected against there are different methods that can be used to remove the relationship between the secret data and the information. For example:
-- [Blinding](https://en.wikipedia.org/wiki/Blinding_(cryptography) is an algorithm that allows the operation to be performed on a randomized version of the data. Which 'blinds' the attacker since they have no control or knowledge over this randomized data. Usually it works like this, Alice has an input x and Bob has a function f. Alice wants Bob to compute y = f(x) without him knowing x or y to him. Alice "blinds" the message by encoding it into some other function E(x); the encoding E must be a [bijection](https://en.wikipedia.org/wiki/Bijection) on the input space of f, ideally a random permutation. Bob returns f(E(x)) to her, to which she applies a decoding D to obtain D(f(E(x))) = y.
+- [Blinding](https://en.wikipedia.org/wiki/Blinding_(cryptography)) is an algorithm that allows the operation to be performed on a randomized version of the data. Which 'blinds' the attacker since they have no control or knowledge over this randomized data. Usually it works like this, Alice has an input x and Bob has a function f. Alice wants Bob to compute y = f(x) without him knowing x or y to him. Alice "blinds" the message by encoding it into some other function E(x); the encoding E must be a [bijection](https://en.wikipedia.org/wiki/Bijection) on the input space of f, ideally a random permutation. Bob returns f(E(x)) to her, to which she applies a decoding D to obtain D(f(E(x))) = y.
 - A countermeasure that is effective against all side-channel attacks is masking. The principle of masking is to avoid manipulating any sensitive value directly, but rather manipulate a sharing of it. A set of variables (called "shares") that xor'd together equal the original value are used. So an attacker must recover all the values of the shares to get any meaningful information. [16]
 
 ## References
