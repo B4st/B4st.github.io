@@ -113,3 +113,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-138876225-1"
+    anonymize_ip: false # default
