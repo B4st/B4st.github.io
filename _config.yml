@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "B4st"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/avatar.png"
   bio    : "Just a student interested in security. Specifically data de-identification, operating systems, reverse engineering, and how things work at low level."
   links:
     - label: "Website"
