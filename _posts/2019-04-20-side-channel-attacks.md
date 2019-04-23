@@ -1,9 +1,4 @@
 ---
-layout: post
-title: Side Channel Attacks
----
-
----
 title: "Side-Channel Attacks"
 date: 2019-04-20T15:34:30-04:00
 categories:
