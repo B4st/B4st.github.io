@@ -69,7 +69,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/b4st"
     - label: "reddit"
-      icon: "fa fa-fw fa-reddit"
+      icon: "fab fa-reddit"
       url: "https://reddit.com/user/b4stest"
 
 # Site Footer
@@ -79,7 +79,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/b4st"
     - label: "reddit"
-      icon: "fa fa-fw fa-reddit"
+      icon: "fab fa-reddit"
       url: "https://reddit.com/user/b4stest"
 
 defaults:
