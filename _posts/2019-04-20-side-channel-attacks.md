@@ -61,9 +61,7 @@ SPA involves visual examination of power traces usually collected by monitoring 
 
 DPA is a more advanced form of power analysis, which can allow an attacker to compute the intermediate values within cryptographic computations through statistical analysis of data collected from multiple cryptographic operations.
 
-Power analysis attacks cannot generally be detected by a device, since the attacker's monitoring is normally passive. In addition, the attack is non-invasive. As a result, physical enclosures, auditing capabilities, and attack detectors are ineffective. Instead, engineers must ensure that devices' power variations do not reveal information usable by attackers.
-
-Further detail will be provided in the section about the chipwhisperer tool.
+Power analysis attacks cannot generally be detected by a device, since the attacker's monitoring is normally passive. In addition, the attack is non-invasive. As a result, physical enclosures, auditing capabilities, and attack detectors are ineffective. Instead, engineers must ensure that device's power variations do not reveal information usable by attackers.
 
 ### Electromagnetic Attacks
 These types of attacks require measuring the amount of electromagnetic radiation being emitted from a device and then performing signal analysis on those measurements. These attacks are both non-invasive and passive in nature, as they are performed by monitoring the normal behavior of the target. The techniques mentioned in the 'History' section of this document are types of electromagnetic attacks, and they are sometimes referred to as TEMPEST, Van Eck Phreaking, or radiation monitoring attacks.
@@ -131,34 +129,21 @@ Depending on the type of side channel attack that the device needs to be protect
 - A countermeasure that is effective against all side-channel attacks is masking. The principle of masking is to avoid manipulating any sensitive value directly, but rather manipulate a sharing of it. A set of variables (called "shares") that xor'd together equal the original value are used. So an attacker must recover all the values of the shares to get any meaningful information. [16]
 
 ## References
-[1] https://www.wired.com/2008/04/nsa-releases-se/
-
-[2] https://www.nytimes.com/1964/05/20/archives/in-moscow-walls-have-ears40-us-embassy-finds-microphones-after.html
-
-[3] https://www.sans.org/reading-room/whitepapers/privacy/paper/981
-
-[4] http://content.time.com/time/magazine/article/0,9171,964052-2,00.html
-
-[5] https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-heres-what-intel-apple-microsoft-others-are-doing-about-it/
-
-[6] https://www.bearssl.org/constanttime.html
-
-[7] http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf
-
-[8] Quisquater JJ, Samyde D (2001). Electromagnetic analysis (ema): Measures and counter-measures for smart cards. Smart Card Programming and Security.
-
-[9] http://mostconf.org/2012/papers/21.pdf
-
-[10] https://www.berkeley.edu/news/media/releases/2005/09/14_key.shtml
-
-[11] http://cs.tau.ac.il/~tromer/acoustic/
-
-[12] https://www.esat.kuleuven.be/cosic/publications/article-2204.pdf
-
-[13] https://ieeexplore.ieee.org/abstract/document/966796
-
-[14] https://www.securityweek.com/hard-drive-led-allows-data-theft-air-gapped-pcs
-
-[15] https://www.zdnet.com/article/stealing-data-from-air-gapped-computers/
-
+<span font-size:2em;">
+[1] https://www.wired.com/2008/04/nsa-releases-se/  
+[2] https://www.nytimes.com/1964/05/20/archives/in-moscow-walls-have-ears40-us-embassy-finds-microphones-after.html  
+[3] https://www.sans.org/reading-room/whitepapers/privacy/paper/981  
+[4] http://content.time.com/time/magazine/article/0,9171,964052-2,00.html  
+[5] https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-heres-what-intel-apple-microsoft-others-are-doing-about-it/  
+[6] https://www.bearssl.org/constanttime.html  
+[7] http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf  
+[8] Quisquater JJ, Samyde D (2001). Electromagnetic analysis (ema): Measures and counter-measures for smart cards. Smart Card Programming and Security.  
+[9] http://mostconf.org/2012/papers/21.pdf  
+[10] https://www.berkeley.edu/news/media/releases/2005/09/14_key.shtml  
+[11] http://cs.tau.ac.il/~tromer/acoustic/  
+[12] https://www.esat.kuleuven.be/cosic/publications/article-2204.pdf  
+[13] https://ieeexplore.ieee.org/abstract/document/966796  
+[14] https://www.securityweek.com/hard-drive-led-allows-data-theft-air-gapped-pcs  
+[15] https://www.zdnet.com/article/stealing-data-from-air-gapped-computers/  
 [16] https://www.iacr.org/archive/eurocrypt2013/78810139/78810139.pdf
+</span>
