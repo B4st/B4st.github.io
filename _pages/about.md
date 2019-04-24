@@ -7,4 +7,4 @@ I'm just a student looking to build my knowledge base and collect/organize the i
 
 Sometimes I'll be working on projects, other times I'll be collecting information on topics like network securty, cryptography, or de-identification. I might even do some capture the flag or wargame style writeups.
 
-The purpose of this blog is to document my knowledge and share whatever I learn or find interesting. So if you find this blog has useful information as well then great, I'm happy to help others to learn along with me.
+The purpose of this blog is to document my knowledge and share whatever I learn or find interesting. So if you find this blog has useful information as well then great, I'm happy to help others learn along with me.
