@@ -130,7 +130,7 @@ Depending on the type of side channel attack that the device needs to be protect
 - A countermeasure that is effective against all side-channel attacks is masking. The principle of masking is to avoid manipulating any sensitive value directly, but rather manipulate a sharing of it. A set of variables (called "shares") that xor'd together equal the original value are used. So an attacker must recover all the values of the shares to get any meaningful information. [16]
 
 ## References
-<span font-size:2em;">
+<font size="-2">
 [1] https://www.wired.com/2008/04/nsa-releases-se/  
 [2] https://www.nytimes.com/1964/05/20/archives/in-moscow-walls-have-ears40-us-embassy-finds-microphones-after.html  
 [3] https://www.sans.org/reading-room/whitepapers/privacy/paper/981  
@@ -147,4 +147,4 @@ Depending on the type of side channel attack that the device needs to be protect
 [14] https://www.securityweek.com/hard-drive-led-allows-data-theft-air-gapped-pcs  
 [15] https://www.zdnet.com/article/stealing-data-from-air-gapped-computers/  
 [16] https://www.iacr.org/archive/eurocrypt2013/78810139/78810139.pdf
-</span>
+</font>
