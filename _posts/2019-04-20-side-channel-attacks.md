@@ -131,20 +131,36 @@ Depending on the type of side channel attack that the device needs to be protect
 
 ## References
 <font size="-2">
-[1] https://www.wired.com/2008/04/nsa-releases-se/  
+[1] https://www.wired.com/2008/04/nsa-releases-se/ 
+  
 [2] https://www.nytimes.com/1964/05/20/archives/in-moscow-walls-have-ears40-us-embassy-finds-microphones-after.html  
+
 [3] https://www.sans.org/reading-room/whitepapers/privacy/paper/981  
+
 [4] http://content.time.com/time/magazine/article/0,9171,964052-2,00.html  
+
 [5] https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-heres-what-intel-apple-microsoft-others-are-doing-about-it/  
+
 [6] https://www.bearssl.org/constanttime.html  
+
 [7] http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf  
-[8] Quisquater JJ, Samyde D (2001). Electromagnetic analysis (ema): Measures and counter-measures for smart cards. Smart Card Programming and Security.  
+
+[8] Quisquater JJ, Samyde D (2001). Electromagnetic analysis (ema): Measures and counter-measures for smart cards. Smart Card 
+Programming and Security.  
+
 [9] http://mostconf.org/2012/papers/21.pdf  
+
 [10] https://www.berkeley.edu/news/media/releases/2005/09/14_key.shtml  
+
 [11] http://cs.tau.ac.il/~tromer/acoustic/  
+
 [12] https://www.esat.kuleuven.be/cosic/publications/article-2204.pdf  
+
 [13] https://ieeexplore.ieee.org/abstract/document/966796  
+
 [14] https://www.securityweek.com/hard-drive-led-allows-data-theft-air-gapped-pcs  
+
 [15] https://www.zdnet.com/article/stealing-data-from-air-gapped-computers/  
+
 [16] https://www.iacr.org/archive/eurocrypt2013/78810139/78810139.pdf
 </font>
