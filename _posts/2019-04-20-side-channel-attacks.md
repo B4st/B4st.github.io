@@ -106,7 +106,8 @@ The threat of optical attacks has increased recently due to the widespread use o
 This also opens a channel for exfiltrating data. That is, someone gains nominal access to the computer but is able to change the operation of an LED to transmit specific data. Storage drives have microprocessors embedded in their controllers, making them hackable, and their activity LEDs have demonstrated transmission speeds up to 4kbps using surveillance cameras as optical receivers. This is fast enough to handle encryption keys, keystroke logging, and text and binary files. Since drive lights flicker during normal operation and the human eye can only observe flickering up to about 60 Hz, users are unlikely to notice any additional flickering during data transmission. [15]
 
 ## Countermeasures
-Side-Channel attacks rely on a relationship between the emitted or leaked information and the secret data. So the counter method itself depends on the side-channel being used and the information that can be accessed through it. There are two main categories of countermeasures:
+Side-Channel attacks rely on a relationship between the emitted or leaked information and the secret data. So the counter method itself depends on the side-channel being used and the information that can be accessed through it.  
+There are two main categories of countermeasures:
 1. Eliminating or reducing the amount of information that is being released, or
 2. Eliminating the relationship between the leaked information and the secret data.
 
