@@ -62,33 +62,25 @@ author:
   avatar : "/assets/images/avatar.png"
   bio    : "Just a student interested in security. Specifically data de-identification, operating systems, reverse engineering, and how things work at low level."
   links:
-   - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:b4stest@gmail.com
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/b4st"
     - label: "reddit"
       icon: "fa fa-fw fa-reddit"
       url: "https://reddit.com/user/b4stest"
 
+# Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/b4st"
+    - label: "reddit"
+      icon: "fa fa-fw fa-reddit"
+      url: "https://reddit.com/user/b4stest"
 
 defaults:
   # _posts
