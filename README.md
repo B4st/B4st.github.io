@@ -20,3 +20,5 @@ Example base website with some default informational posts about the theme https
 
 Theme website https://mmistakes.github.io/minimal-mistakes/
 
+Full theme github https://github.com/mmistakes/minimal-mistakes
+
