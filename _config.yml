@@ -63,7 +63,7 @@ author:
   bio    : "Just a student interested in security. Specifically data de-identification, operating systems, reverse engineering, and how things work at low level."
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-envelope"
       url: mailto:b4stest@gmail.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
