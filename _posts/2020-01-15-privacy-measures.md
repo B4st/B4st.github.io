@@ -10,7 +10,7 @@ tags:
 
 There is a philosophical principle that explains that each event, each living being, each object, each person, or each circumstance has the characteristic of its uniqueness, of its particularity. Other similar events, living beings, objects, persons or circumstances may exist, but never the same entity. This uniqueness is referred to as the objects unicity.
 
-In computer science unicity (&epsilon;<sub>p</sub>) is a risk metric for measuring the re-identifiability of high-dimensional anonymous data. First introduced in 2013, unicity is measured by the number of points p needed to uniquely identify an individual in a data set. The fewer points needed, the more unique the traces are and the easier they would be to re-identify using outside information [1].
+In computer science unicity (&epsilon;<sub>p</sub>) is a risk metric for measuring the re-identifiability of high-dimensional anonymous data. First introduced in 2013, unicity is measured by the number of points p needed to uniquely identify an individual in a data set. The fewer points needed, the more unique the traces are and the easier they would be to re-identify using outside information [[1]].
 
 In the field of data privacy, unicity is usually seen as something that you want to maximize.
 
@@ -21,7 +21,7 @@ To create useful datasets that can be used by researchers but provide protection
 # K-Anonymity
 > is satisfied for a dataset in which the identifying attributes for each person are identical to those of at least k − 1 other individuals in the dataset.
 
-Based on the work by Sweeney and Samaratiy [2][3] k-anonymity is a measure of personal information security. A dataset is regarded as k-anonymised if, on all sets of key variables, each combination of possible values of those variables has at least k records that have that same combination of values. The parameter k is defined by the entity carrying out the de-identification, and there are various common choices (3, 5, 10, 15, 100).
+Based on the work by Sweeney and Samaratiy [[2],[3]] k-anonymity is a measure of personal information security. A dataset is regarded as k-anonymised if, on all sets of key variables, each combination of possible values of those variables has at least k records that have that same combination of values. The parameter k is defined by the entity carrying out the de-identification, and there are various common choices (3, 5, 10, 15, 100).
 
 The first step in a k-anonymous system is removing or masking direct identifiers. That is the name, address, phone number, email address, etc. Once those are removed or masked there are quasi-identifiers that together can be used to identify people. This is where k-anonymity begins. The quasi-identifiers are attributes that can together be used to identify someone, though on their own they might not be enough.
 
@@ -45,7 +45,7 @@ k-anonymity has a few known attacks that will work against it
 # Differential Privacy
 > what can be learned about any individual from a differentially private computation is (essentially) limited to what could be learned about them from everyone else’s data without their data being included in the computation.
 
-Differential privacy comes from the work of Dwork [4], and takes the idea that someone's personal information should be as secure within the dataset as it is outside of it, and puts it into mathematical terms.
+Differential privacy comes from the work of Dwork [[4]], and takes the idea that someone's personal information should be as secure within the dataset as it is outside of it, and puts it into mathematical terms.
 
 For instance if in one universe someone takes a survey and another the same someone opts-out of the survey. No one should be able to learn anything about that person from one dataset that they couldn't learn from the other. This has a caveat, if both of these datasets existed in the real world you could identify someone by comparing the two sets and seeing which entry is missing from one of the surveys. Differential Privacy should be able to protect against this as well.
 
