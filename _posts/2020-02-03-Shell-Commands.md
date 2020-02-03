@@ -4,12 +4,12 @@ date: 2020-02-03T15:34:30-04:00
 categories:
   - Unix
 tags:
-  - Commands 
+  - Commands
 ---
 
 These lists will be all over the internet, just lists of commands and what they do. This is just a comprehensive list of the ones that I've used or found useful, organized in a manner that works for me.
 
-`--help` this gives information on the command that the
+`--help` this gives information on a command
 
 ## Directory Commands
 
