@@ -2,14 +2,14 @@
 title: "Shell Commands"
 date: 2020-02-03T15:34:30-04:00
 categories:
-  - Unix
+  - UNIX
 tags:
   - Commands
 ---
 
 These lists will be all over the internet, just lists of commands and what they do. This is just a comprehensive list of the ones that I've used or found useful, organized in a manner that works for me.
 
-`--help` this gives information on a command
+`--help` gives information on a command
 
 ## Directory Commands
 
@@ -49,8 +49,20 @@ These lists will be all over the internet, just lists of commands and what they 
   - Given one or more patterns, grep searches input files for matches to the patterns. When it finds a match in a line, it copies the line to standard output (by default), or produces whatever other sort of output you have requested with options.
   - `grep [options] [patterns] [file]`
 
+- **wc** = word count
+  -  reads either standard input or a list of files and generates one or more of the following statistics: newline count, word count, and byte count
+  - `wc -l <filename>` prints the line count (note that if the last line does not have \n, it will not be counted)
+  - `wc -c <filename>` prints the byte count
+  - `wc -m <filename>` prints the character count
+  - `wc -w <filename>` prints the word count
+
 ### CSV Manipulation
 
   - **head** = print the header
     - `head filename` will print the first 10 entries of the file to the terminal
     - `head -n 5 filename` option n lets you change the number of entries printed, in this case to 5
+
+- **cut**
+  - `cut -d , -f 2,4-6 input.csv`
+  - `-d` tells cut that columns are separated by commas
+  - `-f 2,4-6` tells it to extract column 2 and columns 4-6. The -f argument can take a single column number or a comma-separated list of numbers and ranges.
