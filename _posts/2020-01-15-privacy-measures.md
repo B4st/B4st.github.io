@@ -16,12 +16,12 @@ In the field of data privacy, unicity is usually seen as something that you want
 
 The problem with data privacy is that perfectly private information is also perfectly useless. Perfect protection for Bob, would require total exclusion of Bob's information from the analysis. It would also require the exclusion of anyone else's information, in order to provide equal protection for them as well. Not allowing people to do studies on the populace hurts research, and you can only control whether you yourself are in the study, you can't stop other people from participating in the survey even if they are similar to you and you chose to opt-out.
 
-To create useful datasets that can be used by researchers but provide protection there are multiple methods of de-identification that can be used on the dataset. Once these methods have been used tests need to be done to check whether the data is private enough. The two main methods of measurement that are discussed are k-anonymity and differential privacy. These are also sometimes seen as de-identification methods themselves, because of how they control the privacy provided.  
+To create useful datasets that can be used by researchers but provide protection there are multiple methods of de-identification that can be used on the dataset. Once these methods have been used tests need to be done to check whether the data is private enough. The two main methods of measurement discussed in literature are k-anonymity and differential privacy. These are also sometimes seen as de-identification methods themselves, because of how they control the privacy provided.  
 
 # K-Anonymity
 > is satisfied for a dataset in which the identifying attributes for each person are identical to those of at least k − 1 other individuals in the dataset.
 
-Based on the work by Sweeney and Samaratiy [[2],[3]] k-anonymity is a measure of personal information security. A dataset is regarded as k-anonymised if, on all sets of key variables, each combination of possible values of those variables has at least k records that have that same combination of values. The parameter k is defined by the entity carrying out the de-identification, and there are various common choices (3, 5, 10, 15, 100).
+Based on the work by Sweeney and Samaratiy [[2], [3]] k-anonymity is a measure of personal information security. A dataset is regarded as k-anonymised if, on all sets of key variables, each combination of possible values of those variables has at least k records that have that same combination of values. The parameter k is defined by the entity carrying out the de-identification, and there are various common choices (3, 5, 10, 15, 100).
 
 The first step in a k-anonymous system is removing or masking direct identifiers. That is the name, address, phone number, email address, etc. Once those are removed or masked there are quasi-identifiers that together can be used to identify people. This is where k-anonymity begins. The quasi-identifiers are attributes that can together be used to identify someone, though on their own they might not be enough.
 
@@ -29,7 +29,7 @@ With k-anonymity the quasi-identifiers need to be adjusted, usually with general
 
 By doing this the idea is that you've ensured that no one can be uniquely identified. Even if someone had background knowledge of a person and was trying to find them in the data table, they wouldn't be able to find the exact person that they're looking for, they would at best be able to narrow it down to k-1 entries.
 
-k-anonymity has a few known attacks that will work against it
+k-anonymity has a few known attacks that will work against it:
 
 **Matching Unshuffled Data**: if the table entries are left in the same order as they appeared in the original data and there are multiple data releases from this data set then potentially leaving the tuples in the order that they were in the original will allow someone to link information and even identify someone.
 
