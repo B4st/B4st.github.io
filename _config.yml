@@ -33,6 +33,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+* TOC {:toc} # should let me add {:toc} on a markdown page to get a table of contents on it
 
 include:
   - _pages
