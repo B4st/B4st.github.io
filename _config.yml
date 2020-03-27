@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "B4st"
   avatar : "/assets/images/avatar.png"
-  bio    : "Just a student interested in security. Mostly data de-identification, operating systems, reverse engineering, and how things work at low level."
+  bio    : "Just a student interested in security and how things work."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
