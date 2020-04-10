@@ -7,7 +7,7 @@ tags:
   - Encryption
 ---
 
-I hear about this things a lot when looking into cryptography, usually in reference to the possibility of perfect security. So what is a one time pad?
+I hear about this a lot when looking into cryptography, usually in reference to the possibility of perfect security. So what is a one-time pad?
 
 ## The Basic Idea
 
