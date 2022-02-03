@@ -5,6 +5,8 @@ categories:
   - Methodology
 tags:
   - Hardware
+toc: true
+toc_label: "Navigation"
 ---
 
 A side-channel attack is any attack that is based on gaining information from the physical system that a process is being implemented on. Rather than an exploitation of weaknesses in the algorithm itself or peculiarities in the code, like cryptanalysis and software bugs. These attacks can use timing information, power consumption, electromagnetic leaks, or even sounds from the device as sources of information, which can then be exploited.

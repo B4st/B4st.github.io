@@ -5,6 +5,8 @@ categories:
   - UNIX
 tags:
   - Commands
+toc: true
+toc_label: "Navigation"
 ---
 
 These lists will be all over the internet, just lists of commands and what they do. This is just a comprehensive list of the ones that I've used or found useful, organized in a manner that works for me.

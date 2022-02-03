@@ -5,6 +5,8 @@ categories:
   - Privacy
 tags:
   - De-Identification
+toc: true
+toc_label: "Navigation"
 ---
 
 
