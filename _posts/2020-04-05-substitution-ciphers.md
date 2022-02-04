@@ -33,7 +33,7 @@ A slightly more complex replacement scheme, you can swap pairs of letters for ea
 
 To encrypt the message typically all the spaces are removed, every letter is swapped out according to the encryption table (a small table with plaintext letters on top and their substitution underneath) and then the encrypted message is broken up into groups of five letters. Decryption is the same process using either the encryption or decryption table (same as encryption except the top is cipher letters and the bottom is plaintext).
 
-### Cryptanalysis
+## Cryptanalysis
 
 **Cryptanalysis** = The process of decrypting a message without knowing the underlying key
 
