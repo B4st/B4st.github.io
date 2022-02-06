@@ -18,9 +18,9 @@ email: b4stest@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog about programming, electronics, and security
 baseurl: 
-url: https://b4st.github.io
-twitter_username: 
-github_username: b4st
+url: https://w4r3l0ck.github.io
+twitter_username: w4r3l0ck
+github_username: w4r3l0ck
 minimal_mistakes_skin: dirt
 search: true
 logo: "assets/images/masthead.png"
