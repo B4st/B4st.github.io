@@ -7,6 +7,7 @@ tags:
   - Encryption
 toc: true
 toc_label: "Navigation"
+classes: wide
 ---
 
 I hear about this a lot when looking into cryptography, usually in reference to the possibility of perfect security. So what is a one-time pad?
